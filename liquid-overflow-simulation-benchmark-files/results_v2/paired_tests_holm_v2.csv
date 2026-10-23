@@ -1,0 +1,10 @@
+method_a,method_b,metric,mean_difference,n_pairs,p_raw,p_holm
+Original adaptive heuristic,Equal four channels,detection_rate,0.29525254861992506,10,0.005062032126267864,0.04555828913641078
+Original adaptive heuristic,Equal four channels,false_alarm_rate,0.0006340456848084062,10,0.9593272374483622,1.0
+Original adaptive heuristic,Equal four channels,mean_lead_s,-1.9431219667250634,10,0.009344113002204883,0.06540879101543418
+Original adaptive heuristic,Optimized fixed weights,detection_rate,-0.2394528839595303,10,0.005062032126267864,0.04555828913641078
+Original adaptive heuristic,Optimized fixed weights,false_alarm_rate,0.0021471821238451547,10,0.5750621301739497,1.0
+Original adaptive heuristic,Optimized fixed weights,mean_lead_s,1.6918988066441973,10,0.24112136827741826,1.0
+Boosting common features,Logistic common features,detection_rate,0.0063311688311688315,10,0.7150006546880893,1.0
+Boosting common features,Logistic common features,false_alarm_rate,0.0031548571059838632,10,0.6784023758521882,1.0
+Boosting common features,Logistic common features,mean_lead_s,4.43505869335448,10,0.016604878103722735,0.09962926862233641

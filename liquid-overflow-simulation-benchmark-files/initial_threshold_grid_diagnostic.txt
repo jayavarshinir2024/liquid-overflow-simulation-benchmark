@@ -1,0 +1,20 @@
+Seed 24000 complete; elapsed 5.5 s
+Seed 24001 complete; elapsed 10.9 s
+Seed 24002 complete; elapsed 15.8 s
+Seed 24003 complete; elapsed 21.3 s
+Seed 24004 complete; elapsed 26.6 s
+Seed 24005 complete; elapsed 31.6 s
+Seed 24006 complete; elapsed 36.8 s
+Seed 24007 complete; elapsed 42.9 s
+Seed 24008 complete; elapsed 48.6 s
+Seed 24009 complete; elapsed 54.6 s
+                     method  detection_rate_mean  false_alarm_rate_mean  early_warning_rate_mean  mean_lead_s_mean
+        Equal four channels             0.363922               0.049931                 0.002273         12.598121
+Original adaptive heuristic             0.630529               0.049335                 0.002273         10.543489
+              Acoustic only             0.100333               0.041654                 0.019980         25.906667
+                   ToF only             0.990856               0.057904                 0.000000          9.016739
+          Acoustic plus ToF             0.488898               0.046782                 0.004598         12.311192
+    Optimized fixed weights             0.949091               0.059165                 0.000000          8.788580
+       Tuned ToF plus trend             0.900856               0.045258                 0.006977         16.131961
+   Logistic common features             0.000000               0.000000                 0.000000               NaN
+   Boosting common features             0.717029               0.028260                 0.000000         16.499053
