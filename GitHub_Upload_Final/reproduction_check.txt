@@ -1,0 +1,4 @@
+Independent repeat of seed 24000: all 63 method/condition rows, metrics, selected settings, split indices, and dataset hashes match.
+All 180180 exported cycle records independently reproduce selected-threshold metrics.
+Final manifest code hash matches delivered source.
+threadpoolctl version: 3.6.0
