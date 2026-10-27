@@ -1,0 +1,2 @@
+PASS: 270,000 warning records reconstruct 540 per-seed rows and 54 summary rows.
+PASS: 95% confidence intervals, labels, cycle counts, and source hashes verified.

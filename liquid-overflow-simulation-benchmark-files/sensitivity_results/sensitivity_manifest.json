@@ -1,0 +1,70 @@
+{
+  "design": "Post hoc sensitivity analysis specified before this extension run; not preregistered.",
+  "base_code_sha256": "bd7d6bcde3e3db802caadb0337251a1d4de19f5facf68d3549c3102fc15671ed",
+  "extension_code_sha256": "2660546d9c3d790a4158348acf06be7d29a2cfceea60e0b96b44ccfdf6cc936f",
+  "original_seeds": [
+    24000,
+    24001,
+    24002,
+    24003,
+    24004,
+    24005,
+    24006,
+    24007,
+    24008,
+    24009
+  ],
+  "test_seeds": [
+    75000,
+    75001,
+    75002,
+    75003,
+    75004,
+    75005,
+    75006,
+    75007,
+    75008,
+    75009
+  ],
+  "cycles_per_condition_per_seed": 500,
+  "conditions": {
+    "fresh_nominal": [
+      1.0,
+      2.0
+    ],
+    "heating_power_0.8": [
+      0.8,
+      2.0
+    ],
+    "heating_power_1.2": [
+      1.2,
+      2.0
+    ],
+    "growth_power_1.5": [
+      1.0,
+      1.5
+    ],
+    "growth_power_2.5": [
+      1.0,
+      2.5
+    ],
+    "freeboard_error_20pct": [
+      1.0,
+      2.0
+    ]
+  },
+  "heating_equation": "T(t)=25+74*(1-exp(-(t/tau)**heating_power))",
+  "growth_equation": "h(t)=min(r,max(0,h(t-1)+g*b(t-1)**growth_power-c*h(t-1)))",
+  "geometry_error": "r_est=r*U(0.8,1.2) independently per cycle; only normalized height changes",
+  "comparison": "Matched test cycle seeds across conditions; frozen nominal models and thresholds.",
+  "physical_validation": false,
+  "python": "3.12.14",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  }
+}

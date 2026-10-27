@@ -41,3 +41,7 @@ differences are fractions; multiply by 100 for percentage points. Lead
 differences are seconds. Tests use the asymptotic signed-rank approximation,
 followed by Holm adjustment across the defined comparisons. Values are
 exploratory with ten seeds and do not measure physical-device superiority.
+
+## Added sensitivity outputs
+
+The sensitivity_results/ CSV files use the original metric definitions. per_seed_sensitivity.csv adds test_seed to identify the fresh dataset paired with each trained seed. summary_sensitivity.csv reports means and t-based 95% CI half-widths across ten trained seed fits. cycle_warnings_sensitivity.csv.gz contains 270,000 cycle/method records. calibration_paired_differences.csv reports geometry-error minus fresh-nominal differences and CI half-widths in native metric units (multiply rates by 100 for percentage points). Conditions share cycle seeds; do not treat their observations as independent.

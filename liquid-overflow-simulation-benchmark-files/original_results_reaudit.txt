@@ -1,0 +1,2 @@
+PASS: 180180 cycle records reconstruct 630 pipeline/condition/seed metric rows.
+PASS: source SHA-256 matches final run manifest.

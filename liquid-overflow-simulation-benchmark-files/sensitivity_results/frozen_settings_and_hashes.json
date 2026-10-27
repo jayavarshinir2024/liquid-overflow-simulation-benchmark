@@ -1,0 +1,512 @@
+{
+  "24000": {
+    "settings": {
+      "fixed_weights": [
+        0.0,
+        0.75,
+        0.0,
+        0.25
+      ],
+      "tof_trend_alpha_scale": [
+        0.75,
+        0.2
+      ],
+      "inner_fit_n": 399,
+      "inner_tune_n": 200,
+      "Logistic common features": {
+        "selected_parameter": 0.1,
+        "candidates": [
+          0.1,
+          1.0,
+          10.0
+        ]
+      },
+      "Boosting common features": {
+        "selected_parameter": 3,
+        "candidates": [
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    "thresholds": {
+      "Equal four channels": 88.37206661701204,
+      "Original adaptive heuristic": 86.53155517578126,
+      "Acoustic only": 84.24818420410158,
+      "ToF only": 94.51399230957033,
+      "Acoustic plus ToF": 83.47805738449098,
+      "Optimized fixed weights": 94.60021853446962,
+      "Tuned ToF plus trend": 77.83162689208986,
+      "Logistic common features": 99.76343093106348,
+      "Boosting common features": 98.40420517827307
+    },
+    "data_sha256": {
+      "fresh_nominal": "6fd79e5890bc6d8b6f2ae169e7514a04dcaf4d65ca0d8e8787cce4aa419c1b13",
+      "heating_power_0.8": "d1a319bec41dbbbf9967cf572c906ce7014482b09415e89be56ba96e988657eb",
+      "heating_power_1.2": "e3114d2e35be8b9bfa4a755ac3e85b8c8a2d5e204d2bf7eabde6ea728e433bd6",
+      "growth_power_1.5": "838062f305978fba5773660654ce0ae0073eef689cf632b07a47380df8e99629",
+      "growth_power_2.5": "01d02e2329850fb217f94b3d55e1fcdbb00327bb98f4029f925ce2a810171acb",
+      "freeboard_error_20pct": "8c466878b45fef92984acf3af3efad98bcccf786d8b715b03a8806690cb8f9ad"
+    }
+  },
+  "24001": {
+    "settings": {
+      "fixed_weights": [
+        0.0,
+        0.75,
+        0.25,
+        0.0
+      ],
+      "tof_trend_alpha_scale": [
+        0.75,
+        0.1
+      ],
+      "inner_fit_n": 399,
+      "inner_tune_n": 200,
+      "Logistic common features": {
+        "selected_parameter": 1.0,
+        "candidates": [
+          0.1,
+          1.0,
+          10.0
+        ]
+      },
+      "Boosting common features": {
+        "selected_parameter": 5,
+        "candidates": [
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    "thresholds": {
+      "Equal four channels": 88.99287134408952,
+      "Original adaptive heuristic": 85.5453338623047,
+      "Acoustic only": 96.86092376708986,
+      "ToF only": 93.73652648925783,
+      "Acoustic plus ToF": 83.26756060123445,
+      "Optimized fixed weights": 93.34122389554979,
+      "Tuned ToF plus trend": 83.37084197998048,
+      "Logistic common features": 99.74067714588931,
+      "Boosting common features": 99.06691819232464
+    },
+    "data_sha256": {
+      "fresh_nominal": "56967b30c38d1abd73e3bd2c5d9ce8990010ddf01f2107d2a50d3104e82af895",
+      "heating_power_0.8": "a7e571784e6e920e3df4089a07e101647a4e17d5409d1b3873bb47ba46020e9f",
+      "heating_power_1.2": "267d58b245ff1b01d2f8003971b16c35725e64060c32b7809f11dcdf1e7c8aab",
+      "growth_power_1.5": "7e92e07c5fdbbe9c6a1ee0598722c7dfe55d4b49a72a02b571b4852d4cfe7631",
+      "growth_power_2.5": "627be6f8fc4a049728d711e85f0783f81f5c1f2376d2cc87bfcb0389d1a72435",
+      "freeboard_error_20pct": "0c39d808a03c633694b746e672fb6e4e7e0b654997937df73e8a4449e8e46f47"
+    }
+  },
+  "24002": {
+    "settings": {
+      "fixed_weights": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "tof_trend_alpha_scale": [
+        0.75,
+        0.2
+      ],
+      "inner_fit_n": 398,
+      "inner_tune_n": 201,
+      "Logistic common features": {
+        "selected_parameter": 0.1,
+        "candidates": [
+          0.1,
+          1.0,
+          10.0
+        ]
+      },
+      "Boosting common features": {
+        "selected_parameter": 5,
+        "candidates": [
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    "thresholds": {
+      "Equal four channels": 87.48266547918321,
+      "Original adaptive heuristic": 84.34265136718751,
+      "Acoustic only": 81.27693176269533,
+      "ToF only": 89.13425445556642,
+      "Acoustic plus ToF": 81.24036788940431,
+      "Optimized fixed weights": 89.1342580318451,
+      "Tuned ToF plus trend": 73.73057556152345,
+      "Logistic common features": 99.5164118711635,
+      "Boosting common features": 97.82974113889841
+    },
+    "data_sha256": {
+      "fresh_nominal": "09d002f29d11bda4b154cfe2b82c8f583729e620c3f711415ce868f2a3f4a3eb",
+      "heating_power_0.8": "df5e65ad3dbadb3cef91f720074204f3f3564e6eff5c0e762aff43c4f0523069",
+      "heating_power_1.2": "086a49d50c349b9e5814fe3ef2468a9a4c714c37eba13660ae8c9992f97c8326",
+      "growth_power_1.5": "eb605232120ee74aab213d11cc36b78b7ee23ce9180fdb35e08d90dc5db5dd02",
+      "growth_power_2.5": "c9d4eec103af7758fc1b12aa46f1914ad7d588cdc74b215ebe6f3913a01680f8",
+      "freeboard_error_20pct": "8bdeb5e5c4abded76a286d9ab614ac351668b26121f2a4e5c8fc44431307051f"
+    }
+  },
+  "24003": {
+    "settings": {
+      "fixed_weights": [
+        0.0,
+        0.75,
+        0.25,
+        0.0
+      ],
+      "tof_trend_alpha_scale": [
+        0.75,
+        0.1
+      ],
+      "inner_fit_n": 399,
+      "inner_tune_n": 200,
+      "Logistic common features": {
+        "selected_parameter": 10.0,
+        "candidates": [
+          0.1,
+          1.0,
+          10.0
+        ]
+      },
+      "Boosting common features": {
+        "selected_parameter": 5,
+        "candidates": [
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    "thresholds": {
+      "Equal four channels": 87.7477988600731,
+      "Original adaptive heuristic": 85.72639465332033,
+      "Acoustic only": 80.06060028076173,
+      "ToF only": 92.79593658447267,
+      "Acoustic plus ToF": 82.76314437389375,
+      "Optimized fixed weights": 91.5699064731598,
+      "Tuned ToF plus trend": 85.09884643554689,
+      "Logistic common features": 99.71800028258613,
+      "Boosting common features": 99.02782533040057
+    },
+    "data_sha256": {
+      "fresh_nominal": "fb1789876c1a361b185c3fdf7a2f6ed727f8126f1449fcc3114f3881cffd1252",
+      "heating_power_0.8": "734bc81e2fbe2ad4e8f3fc8df80e26a2505df02200687da6b1a77afd65c8b035",
+      "heating_power_1.2": "1abae22079dd5e054a224cb40f2f1c93d02de06b53f58b0522161d63f69b8804",
+      "growth_power_1.5": "37347cca08bcf63c5f05a6f183f33c3a8318d72d06a344fbf7fb27cc4861ad3a",
+      "growth_power_2.5": "0b643a182e19b5ce4cc526dfca5fc8c1bf04ec68a950af599d40a40dd3ed82dc",
+      "freeboard_error_20pct": "b7b980b4e761ef08e78f0b3300944d337d6b37afc2d6e038d70c4a93332fd1fc"
+    }
+  },
+  "24004": {
+    "settings": {
+      "fixed_weights": [
+        0.25,
+        0.75,
+        0.0,
+        0.0
+      ],
+      "tof_trend_alpha_scale": [
+        0.5,
+        0.1
+      ],
+      "inner_fit_n": 398,
+      "inner_tune_n": 201,
+      "Logistic common features": {
+        "selected_parameter": 10.0,
+        "candidates": [
+          0.1,
+          1.0,
+          10.0
+        ]
+      },
+      "Boosting common features": {
+        "selected_parameter": 3,
+        "candidates": [
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    "thresholds": {
+      "Equal four channels": 87.87072449922563,
+      "Original adaptive heuristic": 85.37246704101564,
+      "Acoustic only": 84.37122344970705,
+      "ToF only": 91.18348693847658,
+      "Acoustic plus ToF": 83.51917862892152,
+      "Optimized fixed weights": 86.93073391914369,
+      "Tuned ToF plus trend": 83.85287475585939,
+      "Logistic common features": 99.72392561668433,
+      "Boosting common features": 98.28363502747032
+    },
+    "data_sha256": {
+      "fresh_nominal": "92fa01f67bdc2078691d7afa4f22f2447b8288bc0e0069129a1b09c1d1637ae1",
+      "heating_power_0.8": "b6c05b0c7511b488e3255b3f46569db0f69566f0be2fe9bb29a486e1e89ed417",
+      "heating_power_1.2": "600b4b56f2513f4d965dc9772669c286381b9b5db4697af5f34c4097aeef2faf",
+      "growth_power_1.5": "67af577fbb91302246fcd8b9a924f1c12139196e610f9d4112e8d35d8c75f922",
+      "growth_power_2.5": "fa2746bb262f115fcc3d57e81fd58c991a871df74d97a11e9e16469e497f8a5a",
+      "freeboard_error_20pct": "5b1cadfc3de0e033f3936f68e4792954e6f4d9c18a0a734ce0736d64e627754e"
+    }
+  },
+  "24005": {
+    "settings": {
+      "fixed_weights": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "tof_trend_alpha_scale": [
+        0.5,
+        0.2
+      ],
+      "inner_fit_n": 398,
+      "inner_tune_n": 201,
+      "Logistic common features": {
+        "selected_parameter": 1.0,
+        "candidates": [
+          0.1,
+          1.0,
+          10.0
+        ]
+      },
+      "Boosting common features": {
+        "selected_parameter": 3,
+        "candidates": [
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    "thresholds": {
+      "Equal four channels": 87.29321360588075,
+      "Original adaptive heuristic": 85.56861114501955,
+      "Acoustic only": 84.79588317871095,
+      "ToF only": 90.85585784912111,
+      "Acoustic plus ToF": 82.21847116947175,
+      "Optimized fixed weights": 90.85586071014406,
+      "Tuned ToF plus trend": 61.54729080200196,
+      "Logistic common features": 99.54180859169625,
+      "Boosting common features": 98.05218113217892
+    },
+    "data_sha256": {
+      "fresh_nominal": "fa5560caa9b4655a4d26d2896b2ca96445d1bb74bd881daaf7781b312cd590de",
+      "heating_power_0.8": "11ee12cbd2da2127ed5254b53f355c29527b5d7162afb7ddd24051ef6131c53d",
+      "heating_power_1.2": "581632a51b29254b1a54ab1004c7e7ebbf821e7d881f49757ad07340b4230816",
+      "growth_power_1.5": "ca24e8ea95c04e556e88a5d33b0ddc41dce5e2301ec3f9a4d384ebc87b8de72f",
+      "growth_power_2.5": "a0c6449e1459094460635d967d0edce2a4633c6af391ca7055bfa6e7e80ad5c9",
+      "freeboard_error_20pct": "390513774bc53ba56ac2a322eb51cd0cd305c73fb00b7b9839e4ecb940bc60c1"
+    }
+  },
+  "24006": {
+    "settings": {
+      "fixed_weights": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "tof_trend_alpha_scale": [
+        0.5,
+        0.2
+      ],
+      "inner_fit_n": 399,
+      "inner_tune_n": 200,
+      "Logistic common features": {
+        "selected_parameter": 0.1,
+        "candidates": [
+          0.1,
+          1.0,
+          10.0
+        ]
+      },
+      "Boosting common features": {
+        "selected_parameter": 2,
+        "candidates": [
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    "thresholds": {
+      "Equal four channels": 85.79663783311845,
+      "Original adaptive heuristic": 83.52854156494142,
+      "Acoustic only": 78.7013626098633,
+      "ToF only": 92.94777679443361,
+      "Acoustic plus ToF": 80.29136955738069,
+      "Optimized fixed weights": 92.94777512550355,
+      "Tuned ToF plus trend": 63.255111694335945,
+      "Logistic common features": 99.68047405535722,
+      "Boosting common features": 97.82149166732661
+    },
+    "data_sha256": {
+      "fresh_nominal": "ccc95547eb42252d9f0d845c9b86b973ff5b004ed41d3f4638babc115393d0f7",
+      "heating_power_0.8": "4f1b9522a799d78fee703166b0be9c070d1212d4bd5f790af3379e5b7693ede8",
+      "heating_power_1.2": "71eaaaa9cb5b2e79ffaee4e1f47c21f320b5e4aa66095e62a206a9bb3da4b4c5",
+      "growth_power_1.5": "a83625837832b5a2198639b778f28b0ffaa16eb1eacebd9df3a3d8673500587c",
+      "growth_power_2.5": "8bd62fe526258ee2fc654cf2a13361a6ebb66a5954881e815469d43dcf5c5b57",
+      "freeboard_error_20pct": "421a759d1ce82f2a7483177517597a4ff9850cb6a81dbbd18f96415e8b9993a3"
+    }
+  },
+  "24007": {
+    "settings": {
+      "fixed_weights": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "tof_trend_alpha_scale": [
+        0.75,
+        0.1
+      ],
+      "inner_fit_n": 398,
+      "inner_tune_n": 201,
+      "Logistic common features": {
+        "selected_parameter": 1.0,
+        "candidates": [
+          0.1,
+          1.0,
+          10.0
+        ]
+      },
+      "Boosting common features": {
+        "selected_parameter": 5,
+        "candidates": [
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    "thresholds": {
+      "Equal four channels": 88.09130340814592,
+      "Original adaptive heuristic": 85.00888061523439,
+      "Acoustic only": 85.33815002441408,
+      "ToF only": 92.90541839599611,
+      "Acoustic plus ToF": 83.94507467746736,
+      "Optimized fixed weights": 92.90542006492616,
+      "Tuned ToF plus trend": 83.9127883911133,
+      "Logistic common features": 99.66695381198042,
+      "Boosting common features": 98.75477047628951
+    },
+    "data_sha256": {
+      "fresh_nominal": "d3b39082758383dd184de35520d7e65392a51a81808688fdf599ce23d161425a",
+      "heating_power_0.8": "d064a9893629b4bbf645f9ac0b9eeb888f7b1903ccdafdbca1f6eaf546ef7f49",
+      "heating_power_1.2": "445551fde73adc186804ac864e76a5f7d262c091c263acb5657b6f9b8d1b6f5a",
+      "growth_power_1.5": "d40e7b20a142e586dc1db0edd538c87946dd75224c74ffe61d092c3cfcc1e856",
+      "growth_power_2.5": "ef7cea72bd7407986d7a659b6ab772b4bad5d88f8a3dc8e54878fe8887b43ee3",
+      "freeboard_error_20pct": "19f50750577e43854e8c63964570ece12b998edd9b354cc8fa52af14c2e02b7d"
+    }
+  },
+  "24008": {
+    "settings": {
+      "fixed_weights": [
+        0.25,
+        0.75,
+        0.0,
+        0.0
+      ],
+      "tof_trend_alpha_scale": [
+        0.75,
+        0.1
+      ],
+      "inner_fit_n": 398,
+      "inner_tune_n": 201,
+      "Logistic common features": {
+        "selected_parameter": 0.1,
+        "candidates": [
+          0.1,
+          1.0,
+          10.0
+        ]
+      },
+      "Boosting common features": {
+        "selected_parameter": 5,
+        "candidates": [
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    "thresholds": {
+      "Equal four channels": 88.36152702569963,
+      "Original adaptive heuristic": 85.96448516845705,
+      "Acoustic only": 92.76240539550783,
+      "ToF only": 89.64045715332033,
+      "Acoustic plus ToF": 82.98049569129945,
+      "Optimized fixed weights": 85.75859963893892,
+      "Tuned ToF plus trend": 82.05575561523439,
+      "Logistic common features": 99.56119404269815,
+      "Boosting common features": 98.48634635707103
+    },
+    "data_sha256": {
+      "fresh_nominal": "f3498d678b32c3df0bab2711558fdb1cb6e6ceed6ee5fed549a3d8fcc8c21123",
+      "heating_power_0.8": "a66ebbf24c4ff6fb54005432b933adaf51c02cace0e62e44e7d72e998b783574",
+      "heating_power_1.2": "150a9cc557c881f28443942dda19008c3432ca285645457f9427295994bf78c0",
+      "growth_power_1.5": "15fcec8e9a3b195f45d7e71c80bfc0005f3c737d817328b898f6bbfa0b8017b6",
+      "growth_power_2.5": "0580fe70d1cc21f0c8191564b1f2337180f934644630117ce069a8ee1f1bd371",
+      "freeboard_error_20pct": "3907f47886e62fdd9dfa6ae5f501d673fbc3dfdfae11c9b34042586f643b561e"
+    }
+  },
+  "24009": {
+    "settings": {
+      "fixed_weights": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "tof_trend_alpha_scale": [
+        0.5,
+        0.2
+      ],
+      "inner_fit_n": 398,
+      "inner_tune_n": 201,
+      "Logistic common features": {
+        "selected_parameter": 10.0,
+        "candidates": [
+          0.1,
+          1.0,
+          10.0
+        ]
+      },
+      "Boosting common features": {
+        "selected_parameter": 5,
+        "candidates": [
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    "thresholds": {
+      "Equal four channels": 87.91677653789522,
+      "Original adaptive heuristic": 85.26679992675783,
+      "Acoustic only": 83.42237854003908,
+      "ToF only": 90.68858337402345,
+      "Acoustic plus ToF": 83.11175704002382,
+      "Optimized fixed weights": 90.6885862350464,
+      "Tuned ToF plus trend": 64.65229797363283,
+      "Logistic common features": 99.6274178419297,
+      "Boosting common features": 97.8777075209816
+    },
+    "data_sha256": {
+      "fresh_nominal": "99bdf6cdeefd4180382c9a75e3b0bd177d3697ce0cc267edba79b325b860ba9e",
+      "heating_power_0.8": "ae0e6f9dd04da538dd929a9086fc8e1e1b1afab4037585e17da11d8ad19f3fcc",
+      "heating_power_1.2": "e9fda8822c08c0e2bdf759f3cfabb529de57617ffe1cfc6231353b4e2b79868a",
+      "growth_power_1.5": "c0ba129babf2a74b5b2ee2e8377b105689ae59ebd5eb870cbee41f75111e83a4",
+      "growth_power_2.5": "ca69804fec8cf73a09b9938320b8755b96f8787d132e916b9b4f6217122e4c8e",
+      "freeboard_error_20pct": "37ed0df75938537bd0ace293939209b208713b89b4cddfdcbf96740acdcf6a59"
+    }
+  }
+}

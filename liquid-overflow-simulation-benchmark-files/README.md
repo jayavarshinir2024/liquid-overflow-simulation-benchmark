@@ -83,14 +83,21 @@ Use only the v2 results when describing this benchmark. Detection definitions,
 event prevalence and generator assumptions differ, so the old and new headline
 percentages are not directly comparable.
 
-## Submission and availability
+## Source and results availability
 
-The source, results, figures and reproducibility documentation are publicly available at
-https://github.com/jayavarshinir2024/liquid-overflow-simulation-benchmark.
-The manuscript is maintained separately. No DOI has been assigned.
-No license has been selected; author approval is required before adding one.
+Repository: https://github.com/jayavarshinir2024/liquid-overflow-simulation-benchmark
+
+This repository contains the source and generated outputs for the synthetic
+benchmark. It is a research draft, not a validated device or an accepted paper.
+The code and results can also accompany a manuscript as supplementary material.
+No archival DOI or software license is assigned here. Select a license only
+after all authors approve it.
 
 AI assisted development included code, experimental design, analysis and text
 revision in this version. A disclosure limited to language polishing would not
 describe that scope. Authors must review the work and follow the target
 journal's actual policy before submission.
+
+## Added sensitivity study
+
+See [SENSITIVITY_README.md](SENSITIVITY_README.md) for the post hoc extension with 5,000 fresh matched cycle seeds, six conditions, frozen nominal pipelines, complete per-cycle records, and two manuscript figures. Run `python sensitivity_study.py`, `python audit_sensitivity.py`, and `python plot_sensitivity.py` from this directory. The 15 scientific checks cover both the original benchmark and this extension. Original results and source remain unchanged.

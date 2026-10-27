@@ -135,3 +135,7 @@ separate seeds and 300 new cycles, not the same cycles with a paired perturbatio
 
 This is sensitivity analysis over specified alternatives, not physical
 validation or a proof of generalization to every liquid, vessel or failure.
+
+## Post hoc equation and geometry sensitivity
+
+The added extension changes the heating exponent (0.8, 1.2), growth exponent (1.5, 2.5), or estimated freeboard (multiplicative uniform error from 0.8 to 1.2) separately. Models and thresholds remain nominal. These variants test selected assumptions within this generator family; they do not make the dynamics physically calibrated. Matched cycle seeds are reused across the six conditions. See SENSITIVITY_README.md for the exact design.

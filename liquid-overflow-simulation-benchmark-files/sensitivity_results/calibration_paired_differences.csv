@@ -1,0 +1,28 @@
+method,metric,difference_error_minus_nominal,ci95,n_seeds
+Equal four channels,detection_rate,-0.06713842960754238,0.021168515345141893,10
+Equal four channels,false_alarm_rate,0.00866239724334371,0.009828993335441348,10
+Equal four channels,mean_lead_s,3.7725225942639526,1.720899799692774,10
+Original adaptive heuristic,detection_rate,-0.13501136575430311,0.05348774818486625,10
+Original adaptive heuristic,false_alarm_rate,0.021265412081022356,0.007383181386987094,10
+Original adaptive heuristic,mean_lead_s,5.822432878965346,1.1071207625141424,10
+Acoustic only,detection_rate,0.0,0.0,10
+Acoustic only,false_alarm_rate,0.0,0.0,10
+Acoustic only,mean_lead_s,0.0,0.0,10
+ToF only,detection_rate,-0.33152543584371363,0.05234534635150333,10
+ToF only,false_alarm_rate,0.023592112948079707,0.008894476153811033,10
+ToF only,mean_lead_s,7.8635346456812725,2.0286729669659356,10
+Acoustic plus ToF,detection_rate,-0.09681699051256404,0.027492775386100114,10
+Acoustic plus ToF,false_alarm_rate,0.014631943708478728,0.008628198420328631,10
+Acoustic plus ToF,mean_lead_s,3.951774621553959,1.4992615167689423,10
+Optimized fixed weights,detection_rate,-0.31896167244661694,0.05415049735317911,10
+Optimized fixed weights,false_alarm_rate,0.02206732948008846,0.009828525666078535,10
+Optimized fixed weights,mean_lead_s,8.102527536093502,1.8433584798572644,10
+Tuned ToF plus trend,detection_rate,-0.16967828502797513,0.056312293526577496,10
+Tuned ToF plus trend,false_alarm_rate,0.022227675563494923,0.008588759403692098,10
+Tuned ToF plus trend,mean_lead_s,5.747880543855759,1.7055918794238758,10
+Logistic common features,detection_rate,-0.22748434347587967,0.020152871817738147,10
+Logistic common features,false_alarm_rate,0.020417227263372438,0.0120835797558487,10
+Logistic common features,mean_lead_s,6.569125866795693,1.5243959603384718,10
+Boosting common features,detection_rate,-0.22978380490891764,0.04041605543118991,10
+Boosting common features,false_alarm_rate,0.022410896581879673,0.007258928874771708,10
+Boosting common features,mean_lead_s,6.387855114374709,1.8386955422844338,10

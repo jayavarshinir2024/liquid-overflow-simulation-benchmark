@@ -8,7 +8,7 @@ Do not submit this as a working or experimentally validated overflow device.
 | 1. Consistent event definition | Implemented and checked: first generated rim crossing determines the label. All results rerun. Physical dynamics remain uncalibrated. |
 | 2. Stronger comparisons | Implemented: nine pipelines, missing single/two-channel baselines, tuned constant weights, common learned inputs and horizon, separate inner tuning and final validation. |
 | 3. Validate assumptions | Computational sensitivity tests completed for six stresses. Physical validation remains unperformed because no real recordings were supplied. A recording plan is included. |
-| 4. Reproducibility | Code, pinned environment, fixed seeds, splits, selected settings, hashes, per-cycle audit records, tables, figures, checks, and rerun instructions included. Public repository: https://github.com/jayavarshinir2024/liquid-overflow-simulation-benchmark. No DOI has been assigned. |
+| 4. Reproducibility | Code, pinned environment, fixed seeds, splits, selected settings, hashes, per-cycle audit records, tables, figures, checks, and rerun instructions included. Source repository: https://github.com/jayavarshinir2024/liquid-overflow-simulation-benchmark. No archival DOI has been created. |
 
 The main results changed after correcting the model and threshold search.
 In the final nominal benchmark, timely detection was 99.3% for ToF alone,
@@ -22,7 +22,7 @@ rim-based event. They do not establish real ToF accuracy or general superiority.
 
 ## Read these first
 
-1. The separately supplied journal manuscript: revised manuscript with new methods,
+1. `Overflow_Simulation_Study_Corrected.docx`: revised manuscript with new methods,
    results, tables, figure, limitations, and expanded AI disclosure.
 2. `MODELLING_ASSUMPTIONS.md`: exactly what was assumed and what the metrics mean.
 3. `README.md`: run instructions and contents of the reproducibility package.
@@ -45,3 +45,7 @@ rim-based event. They do not establish real ToF accuracy or general superiority.
 
 The earlier manuscript's 97.9–99.9% fusion result belongs to a different
 generator and event definition. Do not mix those results with the new version.
+
+## Sensitivity extension
+
+Read SENSITIVITY_README.md for the additional equation and calibration checks. sensitivity_results/ contains the new warning records, summaries, frozen settings, hashes and figures. Both the original nominal outputs and all added records were audited.

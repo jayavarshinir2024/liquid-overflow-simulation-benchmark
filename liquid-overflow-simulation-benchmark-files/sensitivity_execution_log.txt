@@ -1,0 +1,11 @@
+Sensitivity seed 24000 complete; elapsed 7.6 s
+Sensitivity seed 24001 complete; elapsed 15.2 s
+Sensitivity seed 24002 complete; elapsed 22.7 s
+Sensitivity seed 24003 complete; elapsed 30.7 s
+Sensitivity seed 24004 complete; elapsed 38.1 s
+Sensitivity seed 24005 complete; elapsed 45.2 s
+Sensitivity seed 24006 complete; elapsed 52.5 s
+Sensitivity seed 24007 complete; elapsed 60.2 s
+Sensitivity seed 24008 complete; elapsed 68.3 s
+Sensitivity seed 24009 complete; elapsed 76.0 s
+All original nominal metrics, selected settings, thresholds, and data hashes reproduced.
